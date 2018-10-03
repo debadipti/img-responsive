@@ -1,0 +1,42 @@
+body, html, * {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 400;
+  }
+  
+  .wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+  
+  .img-box img {
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .wrapper {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 490px) {
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+  .btm {
+      margin: 4em 2em;
+  }
+
+  .btm a {
+    color: black;
+  }
