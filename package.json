@@ -11,6 +11,6 @@
   "license": "ISC",
   "homepage": "https://debadipti.github.io/img-responsive",
   "dependencies": {
-    "gh-pages": "^2.0.0"
+    "gh-pages": "^2.0.1"
   }
 }
